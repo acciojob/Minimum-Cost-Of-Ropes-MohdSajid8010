@@ -8,7 +8,7 @@ function calculateMinCost() {
     inputArr[i] = Number(inputArr[i]);
   }
 	
-	inputArr.sort( finction (a , b){ return a-b; })
+	inputArr.sort( function (a , b){ return a-b; })
   var tcost = 0;
 
   while (inputArr.length > 1)
